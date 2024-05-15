@@ -1,0 +1,17 @@
+/* style.css */
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.loaded {
+  opacity: 1;
+}
+.student-card {
+  border: 1px solid black; /* Adjust border color and width as needed */
+  border-radius: 8px; /* Adjust border radius as needed */
+  padding: 16px; /* Adjust padding as needed */
+  margin-bottom: 16px; 
+  margin-top: 16px; /* Adjust margin as needed */
+}
